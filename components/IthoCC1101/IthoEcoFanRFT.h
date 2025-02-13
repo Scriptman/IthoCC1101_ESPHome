@@ -5,7 +5,7 @@
 #include "esphome/components/fan/fan.h"
 #include <IthoCC1101.h>
 
-class IthoCC1101Component : public Component, public fan::Fan {
+class IthoEcoFanRFT : public Component, public fan::Fan {
 public:
     void setup() override;
     void loop() override;
