@@ -16,7 +16,7 @@ MAP_OFF_TO_ZERO = "map_off_to_zero"
 # DEPENDENCIES = ['esp32']
 
 # init cpp class
-ithoecorft_ns = cg.esphome_ns.namespace('IthoEcoRFTFan')
+ithoecorft_ns = cg.esphome_ns.namespace('itho_cc1101')
 IthoEcoRFTFan = ithoecorft_ns.class_('IthoEcoRFT', cg.PollingComponent, fan.Fan)
 
 FAN_RESTORE_MODE_OPTIONS = {
