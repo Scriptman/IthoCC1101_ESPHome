@@ -1,7 +1,7 @@
 #include "IthoEcoFanRFT.h"
 
 namespace esphome {
-    namespace IthoEcoRFTFan {
+    namespace itho_cc1101 {
 
         void IthoEcoRFT::setup() {
             // Autorestore

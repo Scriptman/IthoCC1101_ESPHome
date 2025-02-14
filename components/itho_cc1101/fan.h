@@ -9,7 +9,7 @@
 #include <IthoCC1101.h>
 
 namespace esphome {
-    namespace IthoEcoRFTFan {
+    namespace itho_cc1101 {
         class IthoEcoRFT : public PollingComponent, public fan::Fan {
             public:
                 IthoEcoRFT(int speed_count, bool map_off_to_zero) : speed_count_(speed_count), map_off_to_zero_(map_off_to_zero) {}
